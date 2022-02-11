@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="Ja">
+<head>
+    <meta charset="utf-8">
+    <title>すしまんすたじお</title>
+    <link rel="icon" type="image/jpg" href="images/icon.jpg">
+    <link rel = "stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#infomation").load("info.html");
+        });
+    </script>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-31HJ54DTLL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-31HJ54DTLL');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Font-KosugiMaru -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <script src="js/header.js"></script>
+    <div class="main">
+        <div class="copy-container">
+            <h1>すしまんすたじお</h1>
+            <h4>2022年2月11日に公開した【すしまんすたじお】</h4>
+            <h4>略して【すし☆すた】</h4>
+            <h4>たくさんの人を幸せな気分にさせるため</h4>
+            <h4>"１クリックで楽しい"を合言葉に動画配信活動を行っています。</h4>
+            <h4>それでは動画をお楽しみください。</h4>
+        </div>
+        
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <div class="g-ytsubscribe" data-channelid="UC-m7p-0AXNNxwN6LYXMOFeA" data-layout="full" data-theme="dark" data-count="hidden"></div>
+
+        
+        <h2 class="t-contents">
+            <ul>
+                <li class="t-content">目次</li>
+                <li><a href="#info0001">最新動画</a></li>
+                <!-- <li><a href="#info0002">スシマンへメッセージ</a></li> -->
+            </ul>
+        </h2>
+
+        <div class="infoTab contents">
+            <h3 class="section-title" id="info0001">最新動画</h3> 
+            <a href="infoTab.html" target="_parent"><p>全てのお知らせを見る</p></a>
+            <div id="infomation">
+            </div>
+
+            <script type="text/javascript">
+                $(function(){
+                    $("#deletes").load("infodelete.html");
+                });
+            </script>
+
+            <div id="deletes">
+            </div>
+        </div>
+
+        <!-- <script type="text/javascript" src="js/contact-form.js"></script> -->
+    </div>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/styles.js"></script>
+</body>
+</html>

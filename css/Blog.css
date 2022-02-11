@@ -1,0 +1,4 @@
+.infomation .contents-item:not([data-category~="Blog"])
+{
+  display: none;
+}

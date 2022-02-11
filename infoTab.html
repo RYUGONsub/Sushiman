@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Ja">
+<head>
+    <meta charset="utf-8">
+    <title>「すし☆すた」お知らせ</title>
+    <link rel = "stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpg" href="images/icon.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".infomation").load("info.html");
+        });
+    </script>
+</head>
+<body>
+    <script src="js/header.js"></script>
+    <div class="main">
+        <div class="copy-container">
+            <h1>お知らせ <span> 全部</span></h1>
+          <h2>一覧</h2>
+        </div>
+
+
+        <div class="infoTab contents">
+          <input type="radio" name="categories" id="All" value="All" checked>
+          <input type="radio" name="categories" id="YouTube" value="YouTube">
+          <input type="radio" name="categories" id="Blog" value="Blog">
+          <input type="radio" name="categories" id="Music" value="Music">
+          <input type="radio" name="categories" id="Game" value="Game">
+          <ol class="filters" >
+            <label for="All"> 全て </label>
+            <label for="YouTube"> 動画 </label>
+            <label for="Blog"> ブログ </label>
+            <label for="Music"> 音楽 </label>
+            <label for="Game"> ゲーム </label>
+          </ol>
+
+            <h3 class="section-title" id="info0001">お知らせ - Information</h3> 
+            <div class="infomation">
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/styles.js"></script>
+</body>
+</html>
