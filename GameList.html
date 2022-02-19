@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Ja">
+<head>
+    <meta charset="utf-8">
+    <title>「すし☆すた」ゲーム一覧</title>
+    <link rel = "stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpg" href="images/icon.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".infomation").load("info.html");
+        });
+    </script>
+</head>
+<body>
+    <script src="js/header.js"></script>
+    <div class="main">
+      <h2 class="t-contents">
+        <ul>
+            <li class="t-content">目次</li>
+            <li><a href="#info0001">ゲーム一覧</a></li>
+            <!-- <li><a href="#info0002">スシマンへメッセージ</a></li> -->
+        </ul>
+      </h2>
+
+        <h3 class="section-title" id="info0001">ゲーム一覧</h3> 
+        <div class="contents-item delete"data-category="Game">
+          <a href="Game-kimu.html" target="_parent"><img src="info-images/Game-kimu.png"></a>
+          <dt>第一弾</dt>
+          <dd>
+            <a href="#">【キムとスクールデイズ】</a>
+          </dd>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/styles.js"></script>
+</body>
+</html>
